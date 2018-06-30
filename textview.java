@@ -16,7 +16,7 @@ private TextView textview;
     protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about);
-        textview=(TextView)findViewById(R.id.textView);
+        textview=(TextView)findViewById(R.id.tv);
         string st="Pacasian";
         textview.setText(st);
     }
